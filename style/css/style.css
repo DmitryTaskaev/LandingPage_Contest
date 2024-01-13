@@ -1,0 +1,643 @@
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color: #EFF5FC;
+    font-family: 'MonropeMedium';
+}
+::-webkit-scrollbar {
+	height: 15px;
+	width: 10px;
+    background-color: #2759CD;
+}
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 15px;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-family: 'MonropeMedium';
+    color: #304166;
+}
+a {
+	font-family: MonropeBold;
+	text-decoration: none;
+	letter-spacing: 1px;
+    color: #304166;
+}
+@font-face {
+    font-family: MonropeRegular;
+    src: url(../font/Manrope-Regular.ttf);
+}
+@font-face {
+    font-family: MonropeSemiBold;
+    src: url(../font/Manrope-SemiBold.ttf);
+}
+@font-face {
+    font-family: MonropeMedium;
+    src: url(../font/Manrope-Medium.ttf);
+}
+@font-face {
+    font-family: MonropeLight;
+    src: url(../font/Manrope-Light.ttf);
+}
+@font-face {
+    font-family: MonropeBold;
+    src: url(../font/Manrope-Bold.ttf);
+}
+@font-face {
+    font-family: MonropeExtraBold;
+    src: url(../font/Manrope-ExtraBold.ttf);
+}
+.menu-block * {
+    display: flex;
+    /*border: 2px red solid;*/
+}
+.menu-block {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #BDD1FF;
+    width: 100%;
+    height: 60px;
+}
+.menu {
+    width: 75%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-item {
+    width: 60%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-item a {
+    margin: 0;
+    padding: 0;
+    color: #304166;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: MonropeBold;
+    transition: 0.3s;
+}
+.menu-item a:hover {
+    border-bottom: 1px #304166 solid;
+	transition: 0.3s;
+}
+.menu img {
+    width: 120px;
+    height: 50px;
+}
+.go-clients {
+    height: 45px;
+    width: 160px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #2759CD;
+    
+}
+.go-clients a {
+    font-family: MonropeBold;
+    color: white;
+}
+.go-clients:hover {
+    font-family: MonropeBold;
+    box-shadow: 0 0 25px 1px #2759CD;
+}
+.go-clients a:hover {
+    border-bottom: 0px #304166 solid;
+}
+
+
+.about-team * {
+    display: flex;
+    /*border: 2px red solid;*/
+}
+.about-team {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+.information {
+    align-items: flex-start;
+    flex-direction: column;
+    width: 75%;
+}
+.info-block {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.big-txt {
+    height: 40px;
+    font-size: 40px;
+    font-family: MonropeBold;
+    font-weight: 800;
+    align-items: center;
+}
+.slogan {
+    color: #EE4943;
+    font-size: 20px;
+    font-family: MonropeBold;
+    font-weight: 800;
+}
+.about-block {
+    width: 100%;
+    margin-top: 60px;
+    flex-direction: column;
+}
+.about {
+    font-size: 35px;
+    font-family: MonropeExtraBold;
+    font-weight: 800;
+}
+.about-blocks {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about-programs {
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.programs-block {
+    background-color: #fff;
+    height: 50px;
+    width: 250px;
+    border-radius: 50px;
+    align-items: center;
+    box-shadow: 0 0 25px 1px #fff;
+}
+.programs-block img {
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.programs-block p {
+    margin-left: 10px;
+    align-items: center;
+}
+.about-info {
+    background-color: #fff;
+    height: 360px;
+    width: 1100px;
+    border-radius: 25px;
+    box-shadow: 0 0 25px 1px #fff;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.about-info p {
+    align-items: center;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.about-info p i {
+    color: #2759CD;
+    margin-right: 10px;
+}
+.stock * {
+    display: flex;
+    /*border: 2px red solid;*/
+}
+.stock {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    margin-top: 35px;
+}
+.stock-block {
+    width: 75%;
+    background-color: #2759CD;
+    box-shadow: 0 0 25px 1px #2759CD;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.stock-info {
+    flex-direction: column;
+    justify-content: space-around;
+}
+.stock-info p {
+    align-items: center;
+    font-size: 20px;
+    margin-left: 30px;
+    color: white;
+    font-family: MonropeRegular;
+}
+.stock-info p i {
+    margin-right: 10px;
+}
+.stock-txt {
+    font-family: MonropeBold;
+    margin-right: 5px;
+}
+.countdown {
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    margin-right: 35px;
+    width: 230px;
+    justify-content: space-between;
+}
+.countdown p {
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+/* Товары */
+.product-main * {
+    display: flex;
+    /*border: 2px red solid;*/
+}
+.product-main {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.product-block {
+    width: 75%;
+    flex-direction: column;
+}
+.product {
+    font-size: 35px;
+    font-family: MonropeExtraBold;
+    font-weight: 800;
+}
+.product-containers {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.product-card {
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 0 0 25px 1px #fff;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-name {
+    width: 280px;
+    height: 40px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #EFF5FC;
+    margin-top: 10px;
+}
+.card-name p {
+    align-items: center;
+    font-size: 18px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.card-name p i {
+    color: #2759CD;
+    margin-right: 5px;
+}
+.card-icon {
+    width: 125px;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px #2759CD solid;
+    box-shadow: 0 0 25px 1px #2759CD;
+    background-color: #2759CD;
+}
+.card-icon i {
+    color: white;
+}
+.card-price {
+    width: 280px;
+    height: 40px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #EFF5FC;
+}
+.card-price p {
+    align-items: center;
+    font-size: 18px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.card-price p i {
+    color: #2759CD;
+    margin-right: 5px;
+}
+.card-info {
+    flex-direction: column;
+    width: 280px;
+}
+.time {
+    font-size: 18px;
+    font-weight: bold;  
+}
+.time-time {
+    font-size: 18px;
+    opacity: 0.6;
+}
+.send-mail {
+    width: 280px;
+    height: 40px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #2759CD;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 0.3s;
+}
+.send-mail:hover {
+    background-color: #EFF5FC;
+    color: #304166;
+    transition: 0.3s;
+}
+.product-footer {
+    width: 100%;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.product-footer p {
+    opacity: 0.6;
+}
+.reviews-main * {
+    /*border: 2px red solid;*/
+    display: flex;
+}
+.reviews-main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 15px;
+}
+.reviews-block {
+    width: 75%;
+    flex-direction: column;
+}
+.reviews {
+    font-size: 35px;
+    font-family: MonropeExtraBold;
+    font-weight: 800;
+}
+.reviews-contents {
+    width: 100%;
+    flex-direction: column;
+}
+.reviews-card {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.card-profile {
+    width: 20%;
+    height: 60px;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+}
+.card-profile img {
+    height: 45px;
+    border: 2px #2759CD solid;
+    border-radius: 50%;
+    margin-left: 6px;
+}
+.card-profile p {
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.card-comment {
+    width: 48%;
+    height: 60px;
+    background-color: white;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-comment p {
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-date {
+    width: 25%;
+    height: 60px;
+    background-color: white;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.card-date p {
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+.feedback-main * {
+    display: flex;
+    /*border: 2px red solid;*/
+}
+.feedback-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 35px;
+}
+.feedback-block {
+    width: 75%;
+    flex-direction: column;
+}
+.feedback {
+    font-size: 35px;
+    font-family: MonropeExtraBold;
+    font-weight: 800;
+}
+.feedback-contants{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.feedback-form {
+    flex-direction: column;
+    width: 550px;
+    height: 500px;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 25px 1px #fff;
+    justify-content: center;
+}
+.feedback-form form {
+    width: 400px;
+    height: 450px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.feedback-form input {
+    background-color: #EFF5FC;
+    font-family: 'MonropeMedium';
+    font-weight: bold;
+    height: 40px;
+    border: 2px #2759CD solid;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+.feedback-form textarea {
+    background-color: #EFF5FC;
+    font-family: 'MonropeMedium';
+    font-weight: bold;
+    height: 100px;
+    border: 2px #2759CD solid;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+.feedback-form button {
+    background-color: #2759CD;
+    font-family: 'MonropeMedium';
+    height: 40px;
+    border: 2px #2759CD solid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-family: MonropeBold;
+}
+.feedback-form button:hover {
+    font-family: 'MonropeMedium';
+    height: 40px;
+    border: 2px #EFF5FC solid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-family: MonropeBold;
+    background-color: #EFF5FC;
+    color: #304166;
+    transition: 0.3s;
+}
+.feedback-form p {
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.feedback-form p i {
+    color: #2759CD;
+    margin-right: 10px;
+}
+.phone {
+    flex-direction: column;
+}
+.email {
+    flex-direction: column;
+}
+.commentss {
+    flex-direction: column;
+}
+.description {
+    width: 750px;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 25px 1px #fff;
+    border-left: 2px #2759CD solid;
+}
+.description p {
+    align-items: center;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.description p i {
+    color: #2759CD;
+    margin-right: 10px;
+}
+
+.contacts-main * {
+    display: flex;
+    /*border: 2px red solid;*/
+}
+.contacts-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.contacts-block {
+    width: 75%;
+    flex-direction: column;
+}
+.contacts {
+    font-size: 35px;
+    font-family: MonropeExtraBold;
+    font-weight: 800;
+}
+.contacts-contents {
+    background-color: #fff;
+    height: 360px;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 0 25px 1px #fff;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contacts-contents p {
+    align-items: center;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.contacts-contents p a {
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none
+}
+.contacts-contents p i {
+    color: #2759CD;
+    margin-right: 10px;
+}
+.footer {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #BDD1FF;
+    height: 100px;
+}
+.footer p {
+    align-items: center;
+    font-size: 15px;
+}
+.sots {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+}
